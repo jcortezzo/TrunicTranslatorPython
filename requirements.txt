@@ -1,0 +1,4 @@
+cmudict==1.0.13
+importlib-metadata==5.2.0
+importlib-resources==5.10.2
+zipp==3.11.0
