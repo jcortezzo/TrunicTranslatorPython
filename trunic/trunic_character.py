@@ -1,4 +1,8 @@
 import constant.constant as constant
+from constant.edges import Edge
+from typing import FrozenSet
+
+Edges = FrozenSet[Edge]
 
 class TrunicCharacter:
 
