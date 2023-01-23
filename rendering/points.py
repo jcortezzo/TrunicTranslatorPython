@@ -1,5 +1,5 @@
 from constant.edges import Edge
-from point import Point
+from rendering.point import Point
 from typing import Tuple, Dict
 
 # Turtle is upside-down graphics-wise

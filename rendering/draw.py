@@ -4,7 +4,7 @@ from trunic.trunic_character import TrunicCharacter
 from constant.edges import Edge
 from rendering.points import EDGE_TO_POINTS
 
-from point import Point
+from rendering.point import Point
 
 def draw(pen: turtle.Turtle, character: TrunicCharacter, center: Point = Point(0, 0), scale: float = 1):
     def drawEdge(e: Edge) -> None:
