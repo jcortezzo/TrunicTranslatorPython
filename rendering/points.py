@@ -1,6 +1,6 @@
 from constant.edges import Edge
 from point import Point
-from typing import Tuple, TypedDict
+from typing import Tuple, Dict
 
 # Turtle is upside-down graphics-wise
 TOP = Point(0, -1.5)
@@ -12,7 +12,7 @@ LEFT_BOTTOM = Point(-1, 1)
 RIGHT_TOP = Point(1, -1)
 RIGHT_BOTTOM = Point(1, 1)
 
-EDGE_TO_POINTS: TypedDict[Edge, Tuple[Point, Point]] = {
+EDGE_TO_POINTS: Dict[Edge, Tuple[Point, Point]] = {
     Edge.IN_UP: (MID_TOP, TOP),
     Edge.IN_UP_RIGHT: (MID_TOP, RIGHT_TOP),
     Edge.IN_UP_LEFT: (MID_TOP, LEFT_TOP),
